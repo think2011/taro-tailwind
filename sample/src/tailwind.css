@@ -1,0 +1,80 @@
+/**
+* Tailwind build which works with Taro
+*/
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--tw-bg-opacity))
+}
+
+.flex {
+  display: flex
+}
+
+.table {
+  display: table
+}
+
+.items-center {
+  align-items: center
+}
+
+.justify-center {
+  justify-content: center
+}
+
+.h-full {
+  height: 100%
+}
+
+.resize {
+  resize: both
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%)
+  }
+
+  50% {
+    transform: none
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+}

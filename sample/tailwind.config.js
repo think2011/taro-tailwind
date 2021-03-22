@@ -7,6 +7,7 @@ module.exports = {
     "./src/**/*.vue",
     "./src/**/*.jsx",
     "./src/**/*.tsx",
+    "./src/**/*.wxml",
   ],
   corePlugins: {},
   variants: {},
