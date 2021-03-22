@@ -1,6 +1,6 @@
 {
   "name": "taro-tailwind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tailwind build which works in Taro",
   "main": "removeUnsupported.js",
   "bin": {
