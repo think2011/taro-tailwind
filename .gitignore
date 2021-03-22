@@ -2,6 +2,10 @@ node_modules
 .idea
 *.temp
 
+sample/node_modules
+sample/.idea
+sample/*.temp
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
