@@ -1,5 +1,7 @@
 name: Sync Fork
 
+on: push
+
 jobs:
   sync:
 
